@@ -4,12 +4,9 @@ namespace Kirkaracha\PropublicaCongressApi;
 
 use GuzzleHttp\Client as GuzzleHttpClient;
 use GuzzleHttp\Exception\GuzzleException;
-use Kirkaracha\PropublicaCongressApi\Traits\ValidateInputTrait;
 
 class PropublicaCongressApi
 {
-    use ValidateInputTrait;
-
     const BASE_URI = 'https://api.propublica.org/congress/v1/';
 
     /** @var int $currentCongress */

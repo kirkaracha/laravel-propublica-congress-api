@@ -2,11 +2,10 @@
 
 namespace Kirkaracha\PropublicaCongressApi;
 
-use Illuminate\Support\Facades\Facade;
-
-class PropublicaCongressApiFacade extends Facade
+class PropublicaCongressApiFacade
 {
-    protected static function getFacadeAccessor() {
+    protected static function getFacadeAccessor()
+    {
         return 'propublica-congress-api';
     }
 }
