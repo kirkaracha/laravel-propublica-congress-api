@@ -9,14 +9,7 @@
   ],
   "minimum-stability": "dev",
   "prefer-stable": true,
-  "repositories": [
-    {
-      "url": "https://github.com/kirkaracha/guzzle-gofer.git",
-      "type": "git"
-    }
-  ],
   "require": {
-    "kirkaracha/guzzle-gofer": "dev-master"
   },
   "require-dev": {
     "phpunit/phpunit": "^7.0",
